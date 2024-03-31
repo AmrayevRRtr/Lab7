@@ -6,7 +6,7 @@ W, H = 600, 600
 white = (255, 255, 255)
 sc = pygame.display.set_mode((W, H), pygame.RESIZABLE) 
 
-playlist = ['mb.mp3', 'Levelup2.mp3', 'First_time.mp3', 'vnezony.mp3', 'DDG.mp3']
+playlist = ['mb.mp3', 'Levelup2.mp3', 'vnezony.mp3', 'DDG.mp3']
 current_song = -1
 end_of_the_song = pygame.USEREVENT + 1
 pygame.mixer.music.set_endevent(end_of_the_song)
